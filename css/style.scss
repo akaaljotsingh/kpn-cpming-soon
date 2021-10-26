@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@900&display=swap");
+:root {
+  --animate-delay: 2s;
+}
+.wrap {
+  background-image: url(../images/bg-tile.png);
+  background-position: center;
+  background-color: #2d1514;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 13vh;
+  position: relative;
+}
+img {
+  width: 100%;
+  max-width: 240px;
+  animation: fadeIn;
+  animation-duration: 3s;
+}
+h1 {
+  font-family: "Zen Old Mincho", serif;
+  color: #edd6b3;
+  animation: fadeIn;
+  animation-duration: 3s;
+  margin-top: 40px;
+}
+p {
+  color: #edd6b3;
+}
+.headingg {
+  margin-top: 2px;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  animation: fadeIn;
+  animation-duration: 3s;
+  .icon {
+    margin: auto;
+    background: #bf6b63;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    svg {
+      fill: #edd6b3;
+      margin-top: 8px;
+      width: 24px;
+    }
+  }
+}
