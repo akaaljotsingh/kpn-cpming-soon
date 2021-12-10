@@ -16,7 +16,7 @@
 
 img {
   width: 100%;
-  max-width: 240px;
+  max-width: 290px;
   -webkit-animation: fadeIn;
           animation: fadeIn;
   -webkit-animation-duration: 3s;
@@ -25,7 +25,7 @@ img {
 
 h1 {
   font-family: "Zen Old Mincho", serif;
-  color: #edd6b3;
+  color: #ecbf6b;
   -webkit-animation: fadeIn;
           animation: fadeIn;
   -webkit-animation-duration: 3s;
@@ -34,7 +34,7 @@ h1 {
 }
 
 p {
-  color: #edd6b3;
+  color: #ecbf6b;
 }
 
 .headingg {
