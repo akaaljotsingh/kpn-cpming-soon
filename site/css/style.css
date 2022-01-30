@@ -547,7 +547,7 @@ header.sticky nav li ul {
 }
 .nav-social {
 	float:right;
-	width:40%;
+	width:80%;
 	position:relative;
     transition: all 600ms linear;
 	top:10px;
@@ -2802,6 +2802,10 @@ width: 10px;
 .hero-link {
 	height: 10px;
 }
+.nav-social {
+	width: 40%;
+}
+}
 @media only screen and  (max-width: 540px) {
 .team-item  , .chefinfo , .team-item  , .three-coulms .gallery-item , .three-coulms .grid-sizer , .three-coulms .gallery-item-second , .products li.product-cat-mains{
 	width:100% !important;
@@ -2834,6 +2838,6 @@ width: 10px;
 	padding-top: 0;
     backdrop-filter: blur(10px);
     background: rgb(0 0 0 / 53%);
-}}
+}
 
 
