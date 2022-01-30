@@ -437,6 +437,13 @@ header.sticky .header-inner {
 	float:right;
 	position:relative;
 	margin-top:20px;
+	display: none
+}
+.nav-holder1 {
+	display: block;
+	float:right;
+	position:relative;
+	margin-top:20px;
 }
 nav {
 	position:relative;
@@ -2669,6 +2676,7 @@ article h4 a:hover {
     padding: 7px;
     border: 1px solid white;
     border-radius: 6px;
+	cursor: pointer;
 }
 #navHolder img {
 	width: 28px;
@@ -2681,6 +2689,9 @@ article h4 a:hover {
 }
 }
 @media only screen and  (max-width: 1036px) {
+	.menu-item {
+		padding: 24px 4px;
+	}
 	.btn-wrap {
 		display: block;
 	}
@@ -2700,6 +2711,9 @@ article h4 a:hover {
 	display:none;
 	height:232px;
 	overflow:auto;
+}
+.nav-holder1 {
+	display: none;
 }
 nav ul li {
 	float:left;
